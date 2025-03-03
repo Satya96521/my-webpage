@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Boxes</title>
+    <link rel="stylesheet" href="style.css"> <!-- Linking CSS -->
+</head>
+<body>
+
+    <div class="box" onclick="toggleBox(1)">
+        <h2>Box 1 (Top)</h2>
+        <div class="content" id="content1">
+            <p>Choose a color:</p>
+            <button onclick="changeColor(1, 'red')">Red</button>
+            <button onclick="changeColor(1, 'blue')">Blue</button>
+            <button onclick="changeColor(1, 'green')">Green</button>
+
+            <p>Choose a size:</p>
+            <button onclick="changeSize(1, 'small')">Small</button>
+            <button onclick="changeSize(1, 'medium')">Medium</button>
+            <button onclick="changeSize(1, 'large')">Large</button>
+        </div>
+    </div>
+
+    <div class="box" onclick="toggleBox(2)">
+        <h2>Box 2 (Middle)</h2>
+        <div class="content" id="content2">
+            <p>Choose a color:</p>
+            <button onclick="changeColor(2, 'red')">Red</button>
+            <button onclick="changeColor(2, 'blue')">Blue</button>
+            <button onclick="changeColor(2, 'green')">Green</button>
+
+            <p>Choose a size:</p>
+            <button onclick="changeSize(2, 'small')">Small</button>
+            <button onclick="changeSize(2, 'medium')">Medium</button>
+            <button onclick="changeSize(2, 'large')">Large</button>
+        </div>
+    </div>
+
+    <div class="box" onclick="toggleBox(3)">
+        <h2>Box 3 (Bottom)</h2>
+        <div class="content" id="content3">
+            <p>Choose a color:</p>
+            <button onclick="changeColor(3, 'red')">Red</button>
+            <button onclick="changeColor(3, 'blue')">Blue</button>
+            <button onclick="changeColor(3, 'green')">Green</button>
+
+            <p>Choose a size:</p>
+            <button onclick="changeSize(3, 'small')">Small</button>
+            <button onclick="changeSize(3, 'medium')">Medium</button>
+            <button onclick="changeSize(3, 'large')">Large</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script> <!-- Linking JavaScript -->
+</body>
+</html>
